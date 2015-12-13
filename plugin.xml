@@ -2,7 +2,7 @@
 <plugin
     xmlns="http://www.phonegap.com/ns/plugins/1.0" 
     xmlns:android="http://schemas.android.com/apk/res/android"
-    id="it.mobimentum.phonegapspinnerplugin"
+    id="it.mobimentum.phonegapspinnerplugin.gtg"
     version="1.2.1">
 
     <name>SpinnerPlugin</name>
@@ -27,7 +27,8 @@
 		      <activity android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale" android:name="it.mobimentum.phonegapspinnerplugin.ProgressActivity"
 		          android:theme="@android:style/Theme.Translucent.NoTitleBar" android:launchMode="singleInstance">
 		          <intent-filter>
-		          </intent-filter>
+  <action android:name="android.intent.action.VIEW" />
+</intent-filter>
 		      </activity>
 				</config-file>
  
